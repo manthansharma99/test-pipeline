@@ -1,2 +1,6 @@
 version: 0.2
-echo "Hello, World!"
+
+phases:
+  install:
+    commands:
+      - echo "Hello, World!"
